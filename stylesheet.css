@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Sonder;
+    src: url(sonder.otff);
+}
+
+@font-face {
+    font-family: Synonym;
+    src: url(synonym.otff);
+}
+
+body {
+    background-image: url("Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   }
+
+h1 {
+    font-family: Sonder;
+    font-size: 3em;
+    letter-spacing: .2em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.heading-line {
+   width: 10%;  
+   height: 1px;  
+   margin-bottom: 7px;  
+   margin-right: auto;  
+   margin-left: auto;  
+   margin-top: 9px;  
+   border-width: 2px;  
+   border-color: #A1220E;  
+   margin-bottom: 10em;
+}  
+
+.heading2-line {
+    width: 10%;  
+    height: 1px;  
+    margin-bottom: 7px;  
+    margin: 0;
+    margin-top: 9px;  
+    border-width: 2px;  
+    border-color: #A1220E;  
+ }  
+
+.taichi {
+    width: 500px;
+}
+
+p {
+    font-family: Synonym;
+    line-height: 2;
+    letter-spacing: .02em;
+}
+
+h3 {
+    font-family: Sonder;
+}
