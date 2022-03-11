@@ -23,7 +23,7 @@ h1 {
     margin-top: 2em;
 }
 
-.heading-line {
+.underline {
    width: 10%;  
    height: 1px;  
    margin-bottom: 7px;  
@@ -35,7 +35,7 @@ h1 {
    margin-bottom: 10em;
 }  
 
-.heading2-line {
+.underline2 {
     width: 10%;  
     height: 1px;  
     margin-bottom: 7px;  
