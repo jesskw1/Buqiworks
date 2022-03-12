@@ -102,3 +102,36 @@ h3 {
     margin-bottom: 5em;
 }
 
+.form {
+    padding-bottom: 3em;
+    width: 800px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.submit {
+    margin-bottom: 5em;
+}
+
+.btn {
+    background-color: #A1220E ;
+    border-color: #A1220E;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #A1220E;
+}
+
+.underline-end {
+    height: 1px;  
+    margin-bottom: 7px;  
+    margin-right: auto;  
+    margin-left: auto;  
+    margin-top: 9px;  
+    border-width: 2px;  
+    border-color: #A1220E; 
+    margin-bottom: 3em;
+}
