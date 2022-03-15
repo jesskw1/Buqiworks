@@ -35,7 +35,7 @@ h1 {
    margin-bottom: 10em;
 }  
 
-.underline-taichi {
+.underline2 {
     width: 10%;  
     margin-bottom: 7px;  
     margin: 0;
@@ -55,6 +55,17 @@ h1 {
     padding-bottom: 3em;
 }  
 
+.underline3 {
+    width: 10%;  
+    margin-bottom: 7px;  
+    margin-right: auto;  
+    margin-left: auto;
+    margin-top: 9px;  
+    border-width: 2px;  
+    border-color: #A1220E;  
+    padding-bottom: 3em;
+} 
+
 .taichi {
     margin-bottom: 10em;
 }
@@ -67,12 +78,16 @@ h1 {
     text-align: right;
 }
 
-.taichi-image {
-    width: 500px;
-    margin: auto;
+.treatment {
+    margin-bottom: 10em;
+    background: rgba(255,255,255,0.5);
 }
 
-.taijiwuxgong-image {
+.treatment-title {
+    padding-top: 1em;
+}
+
+.image {
     width: 500px;
     margin: auto;
 }
