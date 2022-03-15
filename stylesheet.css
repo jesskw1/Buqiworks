@@ -11,9 +11,9 @@
 body {
     background-image: url("Images/bg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    
-   }
+    background-size: cover; 
+    overflow-x: hidden;  
+}
 
 h1 {
     font-family: Sonder;
@@ -134,4 +134,41 @@ h3 {
     border-width: 2px;  
     border-color: #A1220E; 
     margin-bottom: 3em;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.from-left {
+    grid-column: 2 / 3;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+  
+.from-right {
+    grid-column: 3 / 4;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+  
+.from-left,
+.from-right {
+    transition: opacity 600ms ease-in, -webkit-transform 600ms ease-in;
+    transition: opacity 600ms ease-in, transform 600ms ease-in;
+    transition: opacity 600ms ease-in, transform 600ms ease-in,
+      -webkit-transform 600ms ease-in;
+    opacity: 0;
+}
+  
+.from-left.appear,
+.from-right.appear {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
 }
