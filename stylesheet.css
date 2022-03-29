@@ -192,3 +192,7 @@ h3 {
     transform: translateX(0);
     opacity: 1;
 }
+
+/* Media Queries Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) { ... }
