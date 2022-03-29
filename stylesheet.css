@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Synonym;
-    src: url(synonym.otff);
+    font-family: Satoshi;
+    src: url(satoshi.otff);
 }
 
 body {
@@ -24,112 +24,135 @@ h1 {
 }
 
 .underline {
-   width: 10%;  
+   width: 40%;  
    height: 1px;  
    margin-bottom: 7px;  
    margin-right: auto;  
    margin-left: auto;  
-   margin-top: 9px;  
+   margin-top: 2em;  
    border-width: 2px;  
    border-color: #A1220E;  
-   margin-bottom: 10em;
-}  
-
-.underline2 {
-    width: 10%;  
-    margin-bottom: 7px;  
-    margin: 0;
-    margin-top: 9px;  
-    border-width: 2px;  
-    border-color: #A1220E;  
-    padding-bottom: 3em;
-}  
-
-.underline-classes {
-    width: 10%;   
-    margin-bottom: 7px;  
-    margin-right: 0;
-    margin-top: 9px;  
-    border-width: 2px;  
-    border-color: #A1220E;  
-    padding-bottom: 3em;
-}  
-
-.underline3 {
-    width: 10%;  
-    margin-bottom: 7px;  
-    margin-right: auto;  
-    margin-left: auto;
-    margin-top: 9px;  
-    border-width: 2px;  
-    border-color: #A1220E;  
-    padding-bottom: 3em;
+   margin-bottom: 8em;
 } 
 
 .taichi {
     margin-bottom: 10em;
 }
 
-.classes{
-    margin-bottom: 10em;
+.taichi-container {
+    background-color: rgba(196,196,196,0.2);
+    padding: 2em;
+    padding-bottom: 0;
+    margin: 2em;
+    margin-bottom: 0;
 }
 
-.classes {
-    text-align: right;
+.taichiimage-container {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-.treatment {
-    margin-bottom: 10em;
-    background: rgba(255,255,255,0.5);
+.classesimage-container {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-.treatment-title {
-    padding-top: 1em;
-}
 
-.image {
-    width: 500px;
-    margin: auto;
-}
-
-.classes-image {
-    width: 450px;
+.taichi-title {
+    font-family: Sonder;
+    font-size: 20pt;
+    text-align: center;
+    width: 250px;
+    border: solid;
+    border-color: #131313;
+    border-width: 1px;
+    border-bottom-color: #A1220E;
+    border-bottom-width: 4px;
+    padding: .4em;
+    margin-bottom: 1.5em;
 }
 
 p {
-    font-family: Synonym;
-    line-height: 2;
-    letter-spacing: .02em;
+    font-family: Satoshi;
+    letter-spacing: .10em;
+    padding-bottom: 2em;
+    margin: 0;
 }
 
-h3 {
+.taichi-image {
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taichi2-image {
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waha{
+     flex-flow: column-reverse;
+      }
+
+.classes-container {
+    background-color: rgba(196,196,196,0.2);
+    padding: 2em;
+    padding-bottom: 0;
+    margin: 2em;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.classes-title {
     font-family: Sonder;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 20pt;
+    text-align: center;
+    width: 250px;
+    border: solid;
+    border-color: #131313;
+    border-width: 1px;
+    border-bottom-color: #A1220E;
+    border-bottom-width: 4px;
+    padding: .4em;
+    margin-bottom: 1.5em;
 }
 
 .book-now {
+    font-family: Sonder;
     text-align: center;
 }
 
 .underline-book {
-    width: 10%;  
-    height: 1px;  
+    width: 30%;  
+    height: 0.5px;  
     margin-bottom: 7px;  
     margin-right: auto;  
     margin-left: auto;  
     margin-top: 9px;  
-    border-width: 2px;  
+    border-width: 1.5px;  
     border-color: #A1220E; 
     margin-bottom: 5em;
 }
 
 .form {
     padding-bottom: 3em;
-    width: 800px;
+    padding-top: 10em;
+    width: 70%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
 
+.form-control {
+    height: 45px;
+}
 
 .submit {
     margin-bottom: 5em;
@@ -148,10 +171,11 @@ h3 {
 .underline-end {
     height: 1px;  
     margin-bottom: 7px;  
+    width: 70%;
     margin-right: auto;  
     margin-left: auto;  
     margin-top: 9px;  
-    border-width: 2px;  
+    border-width: 1.5px;  
     border-color: #A1220E; 
     margin-bottom: 3em;
 }
@@ -194,5 +218,67 @@ h3 {
 }
 
 /* Media Queries Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
 
-@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) {
+    .taichi-container {
+        margin: 0;
+        padding: 4.5em;
+    }
+}
+
+@media (min-width: 992px) { 
+    .taichi-container {
+        margin: 0;
+        padding: 4.5em;
+    }
+
+    .classes-container {
+        margin: 0;
+        padding: 4.5em;
+    }
+
+    .taichiimage-container {
+        padding: 0;
+    }
+
+    .classesimage-container {
+        padding: 0;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+ }
+
+
+@media (min-width: 1200px) { 
+    .taichi-container {
+        margin: 0;
+        padding: 4.5em;
+    }
+
+    .classes-container {
+        margin: 0;
+        padding: 4.5em;
+        padding-bottom: 5.5em;
+    }
+
+    .taichiimage-container {
+        padding: 0;
+    }
+
+    .classesimage-container {
+        padding: 0;
+    }
+
+    .form {
+        width: 35%;
+    }
+
+}
